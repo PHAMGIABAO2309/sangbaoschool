@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="left.css">
+    <link rel="stylesheet" href="right.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="website icon" type="jpg" href="../Images/logopython.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Menu khái quát -->
+        <div id="head">
+            <!-- Logo cua trang -->
+            <div class="logo">
+                <a href="../Home/Home.html">
+                    <img src="../logo.jpg" alt="Logo">
+                </a>
+            </div>
+
+            <!-- Menu chung -->
+            <div class="general-menu">
+                <ul>
+                    <li><a href="../HuongDan/index.html">
+                        Hướng dẫn</a>
+                        <i class='bx bxs-down-arrow'></i>
+                    </li>
+                    <li> <a href="../GoiY/index.html">Gợi ý</a>
+                        <i class='bx bxs-down-arrow'></i>
+                    </li>
+                    <li><a href="../ViecLam/index.html">Việc làm</a>
+                        <i class='bx bxs-down-arrow'></i>
+                    </li>
+                    <li><a href="../DaoTao/index.html">Đào tạo</a>
+                        <i class='bx bxs-down-arrow'></i>
+                    </li>
+
+                    <input type="text" id="searchBar" placeholder="Search...">
+                    <button  href="" type="submit"><i class="fas fa-search"></i></button>
+                </ul>
+            </div>
+
+            <div class="general-icon">
+                <div class="general-icon-item">
+                    <i class='bx bx-collapse-horizontal'></i>
+                    <h3>Spaces</h3>
+                </div>
+                <div class="general-icon-item">
+                    <i class='bx bxs-shopping-bags'></i>
+                    <h3>Shop</h3>
+                </div>
+
+            </div>
+
+            <div class="login">
+                <button type="submit" class="btn"><a href="../LoginForm/Login.html"> Login</a></button>
+            </div>
+
+
+        </div>
+        
+        <!-- Menu chính -->
+        <div id="head-link">
+            <nav>
+                <a href="../Learn_HTML/index.html">HTML</a>
+                <a href="../Learn_CSS/index.html">CSS</a>
+                <a href="../Learn_JavaScript/index.html">JAVASCRIPT</a>
+                <a href="../Learn_SQL/index.html">SQL</a>
+                <a href="../Learn_Python/index.html">PYTHON</a>
+                <a href="../Learn_Java/index.html">JAVA</a>
+                <a href="../Learn_PHP/index.html">PHP</a>
+                <a href="../Learn_C/index.html">C</a>
+                <a href="../Learn_CPlus/index.html">C++</a>
+                <a href="../Learn_CSharp/index.html">C#</a>
+                <span></span>
+            </nav>
+        </div>
+
+        <div id="main-content">
+            <div id="left">
+                <div class="left-container">
+                    <div style="padding:25px; font-size: 20px;" align="center"><h3> Hướng dẫn Python</h3> </div>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#1">Python HOME</a> </h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#Introduction">Python Introduction</a>  </h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#syntax">Python Syntax</a></h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#comments">Python Comments</a></h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#datatypes">Python Data Types</a></h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#booleans">Python Booleans</a></h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#lists">Python Lists</a></h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#sets">Python Sets</a></h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#ifelse">Python If..Else</a></h4>
+                    <h4 class="left-item"><i class="fas fa-check-circle check-icon"></i> <a href="#arrays">Python Arrays</a></h4>
+                </div>
+            </div> <!-- left -->
+            <div id="content">
+                <div style="margin-left: 30px; margin-top: 30px;" id="1"> <h1 > Hướng dẫn Python</h1></div>
+                <button style="margin-left: 20px; margin-top: 20px;" class="home-button"><i class="fas fa-home"></i><a href="../Home/Home.html"> Home</a> </button>
+                <button class="next-button">Kế Tiếp <i class="fas fa-chevron-right"></i></button>
+                <div id="background-content">
+                    <p> Python là một ngôn ngữ lập trình phổ biến.</p>
+                    <br>
+                    <p> Python có thể được sử dụng trên một máy chủ để tạo các ứng dụng web.</p>
+                    <br>
+                    <button class="study-button"><a href="https://cafedev.vn/series-tu-hoc-python-tu-co-ban-toi-nang-cao/">Nghiên cứu hướng dẫn chi tiết Python</a> <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <br>
+                <!-- Python Syntax -->
+                <div id="syntax" style="position: relative;"></div>
+                <div  class="Title-Python-Content" ><h1 >Python Syntax</h1></div>
+                <div class="title-content">
+                    <div class="label-one">
+                        <br>
+                        <br>
+                        <p id="Note-p">Thực thi cú pháp Python</p>
+                        <br>
+                        <p id="content-p">Như chúng ta đã học ở trang trước, cú pháp Python có thể <br>được thực thi bằng cách viết trực tiếp vào Dòng lệnh:</p>
+                        <br>
+                        <div id="background-label-one">
+                            <br>
+                            <div id="background-label-black">
+                                <br>
+                                <p id="content-background-label-black">
+                                    >>> print("Hello, World!") <br>Hello, World!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="label-two">
+                        <br>
+                        <div id="background-label-two">
+                            <br>
+                            <p id="content-p-label">Trên trang này</p>
+                            <div id="hr-label"></div>
+                            <div id="menu-label">
+                                <ul id="content-ul-label">
+                                    <li>Thực thi cú pháp Python</li>
+                                    <li>Thụt lề Python</li>
+                                    <li>Biến Python</li>
+                                    <li>Nhận xét về Python</li>
+                                    <li>Bài tập</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <p id="content-p">Hoặc bằng cách tạo một tệp python trên máy chủ, sử dụng phần mở rộng tệp .py và chạy nó trong Dòng lệnh:</p>
+                <br>
+                <div id="background-example-grey">
+                    <br>
+                    <div id="background-example-black">
+                        <br>
+                        <p id="content-background-example-black">
+                            C:\Users\Your Name>python myfile.py</p>
+                    </div>
+                </div>
+                <br>
+                <div id="hr-content"></div>
+                <div id="datatypes"></div>
+                <br>
+                <!-- Python Data Types -->
+                <div  class="Title-Python-Content"><h1>Python Data Types</h1></div>
+                <br>
+                <p id="Note-p">Kiểu dữ liệu tích hợp sẵn</p>
+                <br>
+                <p id="content-p">Trong lập trình, kiểu dữ liệu là một khái niệm quan trọng.</p>
+                <br>
+                <p id="content-p">Các biến có thể lưu trữ dữ liệu của các loại khác nhau và các loại khác nhau có thể làm được những thứ khác nhau.</p>
+                <br>
+                <p id="content-p">Python có các kiểu dữ liệu sau được tích hợp sẵn theo mặc định, trong các danh mục sau:</p>
+                <br>
+                <div class="title-content">
+                    <div id="content-ul-one">
+                        <ul>
+                            <li>Loại văn bản:</li>
+                            <li>Các loại số:</li>
+                            <li>Các loại trình tự:</li>
+                            <li>Loại ánh xạ:</li>
+                            <li>Các loại bộ:</li>
+                            <li>Loại Boolean:</li>
+                            <li>Các loại nhị phân:</li>
+                            <li>Không có loại:</li>
+                        </ul>
+                    </div>
+                    <div id="content-ul-two">
+                        <ul>
+                            <li><code id="list-two">str</code></li>
+                            <li><code id="list-two">int</code>, , <code id="list-two">floatcomplex</code></li>
+                            <li><code id="list-two">list</code>, , <code id="list-two">tuplerange</code></li>
+                            <li><code id="list-two">dict</code></li>
+                            <li><code id="list-two">set</code>, <code id="list-two">frozenset</code></li>
+                            <li><code id="list-two">bool</code></li>
+                            <li><code id="list-two">bytes</code>, , <code id="list-two">bytearraymemoryview</code></li>
+                            <li><code id="list-two">NonType</code></li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+                <div id="hr-content"></div>
+                <br>
+                <!-- Python Lists -->
+                <div id="lists" class="Title-Python-Content"><h1>Python Lists</h1></div>
+                <br>
+                <div id="background-example-list">
+                    <br>
+                    <p>mylist = [<code style="color:red">"apple"</code>, <code style="color:red">"banana"</code>, <code style="color:red">"cherry"</code>]</p>
+                </div>
+                <br>
+                <p id="content-p">Danh sách được sử dụng để lưu trữ nhiều mục trong một biến duy nhất.</p>
+                <br>
+                <p id="content-p">Danh sách là một trong 4 kiểu dữ liệu tích hợp sẵn trong Python được sử dụng để lưu trữ các bộ sưu tập data, 3 cái còn lại là <u>Tuple</u>, <u>Set</u> và <u>Dictionary</u>, tất cả đều có chất lượng và cách sử dụng khác nhau.</p>
+                <br>
+                <p id="content-p">Danh sách được tạo bằng dấu ngoặc vuông:</p>
+                <br>
+                <div id="background-grey-example--list">
+                    <br>
+                    <p id="Note-p">Ví dụ</p>
+                    <br>
+                    <p id="content-p">Tạo danh sách:</p>
+                    <div id="background-white-example--list">
+                        <br>
+                        <p>thislist = [<code style="color:red">"apple"</code>, <code style="color:red">"banana"</code>, <code style="color:red">"cherry"</code>] <br>
+                        <code style="color:blue">print</code>(thislist)
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <p id="Note-p">Lệnh</p>
+                <br>
+                <p id="content-p">Khi chúng tôi nói rằng danh sách được sắp xếp, điều đó có nghĩa là các mục có thứ tự xác định và thứ tự đó sẽ không thay đổi.</p>
+                <br>
+                <p id="content-p">Nếu bạn thêm các mục mới vào danh sách, Các mục mới sẽ được đặt ở cuối danh sách.</p>
+                <br>
+                <div id="background-yellow-example--list">
+                    <br>
+                    <p><b>Ghi chú:</b> Có một số <u>phương pháp danh sách</u>  sẽ thay đổi thứ tự, nhưng nói chung: thứ tự của các mục sẽ không thay đổi.</p>
+                </div>
+                <br>
+                <div id="hr-content"></div>
+                <br>
+                <!-- Python If..Else -->
+                <div id="ifelse" class="Title-Python-Content"><h1>Python If..Else</h1></div>
+                <br>
+                <p id="Note-p">Điều kiện Python và câu lệnh If</p>
+                <br>
+                <p id="content-p">Python hỗ trợ các điều kiện logic thông thường từ toán học:</p>
+                <br>
+                <ul id="ul">
+                    <li>Bằng: <code id="list-two">a == b</code></li>
+                    <li>Không bằng: <code id="list-two">a != b</code></li>
+                    <li>Nhỏ hơn: <code id="list-two">a < b</code></li>
+                    <li>Nhỏ hơn hoặc bằng: <code id="list-two">a <= b</code></li>
+                    <li>Lớn hơn: <code id="list-two">a > b</code></li>
+                    <li>Lớn hơn hoặc bằng: <code id="list-two">a >= b</code></li>
+                </ul>
+                <br>
+                <p id="content-p">Những điều kiện này có thể được sử dụng theo nhiều cách, phổ biến nhất là trong "câu lệnh if" và vòng lặp.</p>
+                <br>
+                <p id="content-p">Câu lệnh "if" được viết bằng cách sử dụng từ khóa <code id="list-two">if</code>.</p>
+                <br>
+                <div id="background-grey-example2--list">
+                    <br>
+                    <p id="Note-p">Ví dụ</p>
+                    <br>
+                    <p id="content-p">Tạo danh sách:</p>
+                    <div id="background-white-example2--list">
+                        <br>
+                        <p>a = <code style="color:red">33</code> <br>
+                            b = <code style="color:red">200</code> <br>
+                            <code style="color:blue">if </code>b > a: 
+                        </p>
+                        <p id="p-two"><code style="color:blue">print</code>(<code style="color:brown">"b lớn hơn a"</code>)</p>
+                    </div>
+                </div>
+                <br>
+                <p id="Note-p">Câu lệnh Else</p>
+                <br>
+                <p id="content-p">Từ khóa <code id="list-two">else</code> bắt bất cứ thứ gì không bị bắt bởi các điều kiện trước đó.</p>
+                <br>
+                <div id="background-grey-example3--list">
+                    <br>
+                    <p id="Note-p">Ví dụ</p>
+                    <br>
+                    <p id="content-p">Tạo danh sách:</p>
+                    <div id="background-white-example3--list">
+                        <br>
+                        <p>a = <code style="color:red">33</code> <br>
+                            b = <code style="color:red">200</code> <br>
+                            <code style="color:blue">if </code>b > a: 
+                        </p>
+                        <p id="p-three"><code style="color:blue">print</code>(<code style="color:brown">"b lớn hơn a"</code>)</p>
+                        <p id="p-four"><code style="color:blue">else</code></p>
+                        <p id="p-three"><code style="color:blue">print</code>(<code style="color:brown">"b không lớn hơn a"</code>)</p>
+                    </div>
+                </div>
+                <br>
+                <hr>
+            </div> <!-- Đóng div content -->
+            <div id="right">
+                <!-- Python Introduce -->
+                <div id="Introduction" class="Title-Python-Right"> <h1 >Python Introduction</h1></div>
+                <br>
+                <p id="content-p-right">Python là một ngôn ngữ lập trình phổ biến. Nó được tạo ra bởi Guido van Rossum, và phát hành vào năm 1991.</p>
+                <br>
+                <p id="content-p-right">Nó được sử dụng cho:</p>
+                <br>
+                <ul id="content-ul">
+                    <li>phát triển web (phía máy chủ),</li>
+                    <li>phát triển phần mềm,</li>
+                    <li>toán học</li>
+                    <li>kịch bản hệ thống.</li>
+                </ul>
+                <br>
+                <div id="background-grey">
+                    <br>
+                    <p id="content-p-right">Ví dụ:</p>
+                    <div id="background-white">
+                        <br>
+                        <p id="content-p-right">
+                            <code style="color:blue">print</code>
+                            (
+                                <code style="color:red">"Hello, World!"</code>
+                            )
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div id="hr"></div>
+                <!-- Python Comment -->
+                <div id="comments" class="Title-Python-Right"> <h1>Python Comments</h1></div>
+                <br>
+                <p id="content-p-right">Nhận xét có thể được sử dụng để giải thích mã Python.</p>
+                <br>
+                <p id="content-p-right">Nhận xét có thể được sử dụng để làm cho mã dễ đọc hơn.</p>
+                <br>
+                <p id="content-p-right">Nhận xét có thể được sử dụng để ngăn chặn việc thực thi khi kiểm tra mã.</p>
+                <br>
+                <p id="Note-p-right">Tạo nhận xét</p>
+                <br>
+                <p id="content-p-right">Nhận xét bắt đầu bằng , và Python sẽ Bỏ qua chúng: <code id="sharp">#</code></p>
+                <br>
+                <div id="background-grey-two">
+                    <br>
+                    <p id="content-p-right">Ví dụ:</p>
+                    <div id="background-white-two">
+                        <br>
+                        <p id="comment-example-p">#This is a comment</p>
+                        <p id="content-p-right">
+                            <code style="color:blue">print</code>
+                            (
+                                <code style="color:red">"Hello, World!"</code>
+                            )
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div id="hr"></div>
+                <!-- Python Booleans -->
+                <div id="booleans" class="Title-Python-Right"> <h1>Python Booleans</h1></div>
+                <br>
+                <p id="content-p-right">Booleans đại diện cho một trong hai giá trị: hoặc . <code id="boolean">True False</code></p>
+                <br>
+                <p id="content-p-right">Bạn có thể đánh giá bất kỳ biểu thức nào trong Python và nhận được một trong hai câu trả lời, hoặc .<code id="boolean">True False</code></p>
+                <br>
+                <p id="content-p-right">Khi bạn so sánh hai giá trị, biểu thức được đánh giá và Python trả về Boolean trả lời:</p>
+                <br>
+                <div id="background-grey-three">
+                    <br>
+                    <p id="content-p-right">Ví dụ:</p>
+                    <div id="background-white-three">
+                        <p id="background-content-p-right">
+                            <code style="color:blue">print</code>
+                            (
+                                <code style="color:red">10</code> > <code style="color:red">9</code>
+                            )
+                        </p>
+                        <p id="background-content-p-right">
+                            <code style="color:blue">print</code>
+                            (
+                                <code style="color:red">10</code> == <code style="color:red">9</code>
+                            )
+                        </p>
+                        <p id="background-content-p-right">
+                            <code style="color:blue">print</code>
+                            (
+                                <code style="color:red">10</code> < <code style="color:red">9</code>
+                            )
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div id="hr"></div>
+                <!-- Python Sets -->
+                <div id="sets" class="Title-Python-Right"> <h1>Python Sets</h1></div>
+                <br>
+                <div class="background-gray-example--sets">
+                    <br>
+                    <p>myset = {<code style="color:red">"apple"</code>, <code style="color:red">"banana"</code>, <code style="color:red">"cherry"</code> } </p>
+                </div>
+                <br>
+                <p id="content-p-right">Tập hợp được sử dụng để lưu trữ nhiều mục trong một biến duy nhất.</p>
+                <br>
+                <p id="content-p-right">Set là một trong 4 kiểu dữ liệu tích hợp sẵn trong Python được sử dụng để lưu trữ các bộ sưu tập data, 3 cái còn lại là <u>List</u>, <u>Tuple</u>, và <u>Dictionary</u>, tất cả đều có chất lượng và cách sử dụng khác nhau.</p>
+                <br>
+                <p id="content-p-right">Tập hợp là một bộ sưu tập <i>không có thứ tự, không thể thay đổi</i>* và chưa được lập chỉ mục.</p>
+                <br>
+                <div id="background-note-right">
+                    <br>
+                    <p id="content-p-right"><b>*Ghi chú: </b>Đặt <i>mục</i> không thể thay đổi, nhưng bạn có thể xóa các mục và thêm các mục mới.</p>
+                </div>
+                <br>
+                <div id="hr"></div>
+                <!-- Python Arrays -->
+                <div id="arrays" class="Title-Python-Right"> <h1>Python Arrays</h1></div>
+                <br>
+                <div id="background-note-right">
+                    <br>
+                    <p id="content-p-right"><b>Ghi chú:</b> Python không có hỗ trợ tích hợp cho Mảng, nhưng <u>Danh sách Python</u> có thể được sử dụng thay thế.</p>
+                </div>
+                <br>
+                <p id="Note-p-right">Arrays ( Mảng )</p>
+                <br>
+                <div id="background-note-right-two">
+                    <br>
+                    <p id="content-p-right"><b>Ghi chú: </b>Trang này chỉ cho bạn cách sử dụng LISTS làm mảng, tuy nhiên, để làm việc với các mảng trong Python, bạn sẽ phải nhập một thư viện, như <u>thư viện NumPy.</u></p>
+                </div>
+                <br>
+                <div id="background-grey-four">
+                    <br>
+                    <p id="Note-p-right">Ví dụ</p>
+                    <br>
+                    <p id="content-p-right-bg">Tạo một mảng chứa tên xe:</p>
+                    <div id="background-white-four">
+                        <br>
+                        <p>cars = [<code style="color:red">"Ford"</code>, <code style="color:red">"Volvo"</code>, <code style="color:red">"BMW"</code> ] </p>
+                    </div>
+                </div>
+                <br>
+                <hr>
+            </div> <!-- Đóng div right -->
+        </div> <!-- Đóng div main-container -->
+    </div> <!-- Đóng div wrapper -->
+</body>
+</html>

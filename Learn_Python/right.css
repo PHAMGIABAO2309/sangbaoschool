@@ -1,0 +1,150 @@
+/* tieu de ben phai */
+.Title-Python-Right {
+    margin-left: 10px; margin-top: 20px;
+}
+/* noi dung the p ben phai */
+#content-p-right {
+    margin-left: 10px;
+}
+/* noi dung the ul */
+#content-ul {
+    margin-left: 33px;
+}
+
+/* background vi du */
+#background-grey {
+    width: 97%;
+    height: 110px;
+    background-color: rgb(221, 217, 217);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#background-white {
+    width: 90%;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+    background-color: white;
+    border-left: 5px solid green;
+}
+/* tao giong the hr */
+#hr {
+    border: 1px solid rgb(224, 218, 218);
+    width: 90%;
+    margin-left:15px;
+}
+
+/* Ghi chu ben phai */
+#Note-p-right {
+    margin-left: 20px;
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* dau # */
+#sharp {
+    width: 100px;
+    height: 50px;
+    color: rgb(248, 122, 122);
+    background-color: rgb(171, 168, 168);
+}
+
+/* background vi du 2 */
+#background-grey-two {
+    width: 97%;
+    height: 110px;
+    background-color: rgb(221, 217, 217);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#background-white-two {
+    width: 90%;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+    background-color: white;
+    border-left: 5px solid green;
+}
+
+#comment-example-p {
+    color: green;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+/* ============dong background vi du 2=========== */
+
+#boolean {
+    color: red;
+    background-color: rgb(230, 232, 233);
+}
+
+/* background vi du 3 */
+#background-grey-three {
+    width: 97%;
+    height: 130px;
+    background-color: rgb(221, 217, 217);
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#background-white-three {
+    width: 90%;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: white;
+    border-left: 5px solid green;
+}
+#background-content-p-right {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.background-gray-example--sets {
+    width: 95%;
+    height: 50px;
+    background-color: rgb(199, 196, 196);
+    margin-left: 10px;
+}
+.background-gray-example--sets p {
+    margin-left: 10px;
+}
+#content-p-right u:hover{
+    color:green;
+}
+
+#background-note-right {
+    width: 98%;
+    height: 80px;
+    background-color: rgb(247, 249, 174);
+    margin-left: 3px;
+}
+#background-note-right-two {
+    width: 98%;
+    height: 120px;
+    background-color: rgb(247, 249, 174);
+    margin-left: 3px;
+}
+
+/* background vi du 4 */
+#background-grey-four {
+    width: 97%;
+    height: 160px;
+    background-color: rgb(221, 217, 217);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#background-white-four {
+    width: 90%;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+    background-color: white;
+    border-left: 5px solid green;
+}
+#background-white-four p {
+    margin-left: 10px;
+}
+#content-p-right-bg {
+    margin-left: 20px;
+}

@@ -1,0 +1,126 @@
+/* ==================================(NÚT HOME)============================== */
+.home-button {
+    background-color: rgb(4, 170, 109); /* Màu nền của nút */
+    color: white; /* Màu chữ của nút */
+    border: none; /* Loại bỏ viền */
+    padding: 10px 20px; /* Kích thước padding */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột */
+    border-radius: 50px; /* Bo góc */
+}
+.home-button a {
+    text-decoration: none; /* Loại bỏ gạch dưới */
+    color: inherit;
+}
+.home-button:hover {
+    background-color: #e5ef52; /* Màu nền của nút khi hover */
+    color: black;
+}
+/* ==================================(NÚT KẾ TIẾP)============================== */
+.next-button {
+    background-color: rgb(4, 170, 109); /* Màu nền của nút */
+    color: white; /* Màu chữ của nút */
+    border: none; /* Loại bỏ viền */
+    padding: 10px 20px; /* Kích thước padding */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột */
+    margin-left: 250px;
+    border-radius: 50px; /* Bo góc */
+}
+.next-button:hover {
+    background-color: #0056b3; /* Màu nền của nút khi hover */
+}
+
+#background-content {
+    margin-top: 20px;
+    background-color: aqua;
+    padding: 30px;
+}
+/* ==================================(NÚT NGhiên cứu)============================== */
+.study-button a {
+    text-decoration: none; /* Loại bỏ gạch dưới */
+    color: inherit; /* Kế thừa màu sắc từ phần tử cha */
+}
+.study-button {
+    background-color: rgb(4, 170, 109); /* Màu nền của nút */
+    color: white; /* Màu chữ của nút */
+    border: none; /* Loại bỏ viền */
+    padding: 10px 20px; /* Kích thước padding */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột */
+    border-radius: 20px; /* Bo góc */
+}
+.study-button:hover {
+    background-color: #0056b3; /* Màu nền của nút khi hover */
+}
+
+.container {
+    display: flex;
+}
+#button-container {
+    display: flex; /* chia đều 3 cột button , mỗi cột 5 thẻ button thẳng hàng*/
+    
+}
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* =======================(3 cột button , mỗi cột 5 dòng thẳng hàng) ==========================*/
+.button-three-column {
+    margin: 2px;
+    padding: 12px;
+    background-color: rgb(212, 218, 218);
+    border-radius: 5px; /* Bo góc */
+    color: black;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+.button-three-column:hover{
+    background: #222;
+    color: white;
+}
+/* ====================(CSS Introduce)============================ */
+li::marker{
+    content:"👉";
+}
+/* ==========================(CSS Colors)========================= */
+#p1 {background-color:rgba(255,0,0,0.3);}
+#p2 {background-color:rgba(0,255,0,0.3);}
+#p3 {background-color:rgba(0,0,255,0.3);}
+#p4 {background-color:rgba(192,192,192,0.3);}
+#p5 {background-color:rgba(255,255,0,0.3);}
+#p6 {background-color:rgba(255,0,255,0.3);}
+#p2,#p3,#p4,#p5,#p6{
+    margin-top: 15px;
+}
+
+/* ==========================(CSS Tables)======================== */
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }

@@ -1,0 +1,142 @@
+.main-content {
+    width: 480px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(30deg, rgb(100, 241, 84), rgb(92, 92, 229), rgb(111, 30, 30));
+    position: relative; /* Added to contain the absolutely positioned imgContainer */
+}
+
+.container {
+    width: 480px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    position: relative; /* Added to contain the absolutely positioned imgContainer */
+}
+
+.imgContainer {
+    width: 480px; /* Match the width of the container */
+    height: 200px; /* Adjust the height to fit within the container */
+    position: relative; /* Changed from absolute to relative */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.slide_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;
+    position: relative;
+}
+
+.imgContainer img {
+    position: relative;
+    height: 185px;
+    width: 120px;
+    filter: saturate(10%);
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.button {
+    position: absolute;
+    width: 120px;
+    height: 185px;
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#slider1:target ~ .imgContainer #img1,
+#slider1:target ~ .imgContainer #button1 {
+    width: 195px;
+    height: 300px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider2:target ~ .imgContainer #img2,
+#slider2:target ~ .imgContainer #button2 {
+    width: 195px;
+    height: 300px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider3:target ~ .imgContainer #img3,
+#slider3:target ~ .imgContainer #button3 {
+    width: 195px;
+    height: 300px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider4:target ~ .imgContainer #img4,
+#slider4:target ~ .imgContainer #button4 {
+    width: 195px;
+    height: 300px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider5:target ~ .imgContainer #img5,
+#slider5:target ~ .imgContainer #button5 {
+    width: 195px;
+    height: 300px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider6:target ~ .imgContainer #img6,
+#slider6:target ~ .imgContainer #button6 {
+    width: 195px;
+    height: 300px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider7:target ~ .imgContainer #img7,
+#slider7:target ~ .imgContainer #button7 {
+    width: 195px;
+    height: 300px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider1:target ~ .imgContainer {
+    transform: translateX(60%); /* Updated for smooth transition */
+}
+#slider2:target ~ .imgContainer {
+    transform: translateX(40%); /* Updated for smooth transition */
+}
+#slider3:target ~ .imgContainer {
+    transform: translateX(20%); /* Updated for smooth transition */
+}
+#slider4:target ~ .imgContainer {
+    transform: translateX(0%); /* Updated for smooth transition */
+}
+#slider5:target ~ .imgContainer {
+    transform: translateX(-20%); /* Updated for smooth transition */
+}
+#slider6:target ~ .imgContainer {
+    transform: translateX(-40%); /* Updated for smooth transition */
+}
+#slider7:target ~ .imgContainer {
+    transform: translateX(-60%); /* Updated for smooth transition */
+}
+
+.img {
+    height: 185px;
+}

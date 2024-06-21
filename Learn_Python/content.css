@@ -1,0 +1,325 @@
+/* ==================================(NÚT HOME)============================== */
+.home-button {
+    background-color: rgb(4, 170, 109); /* Màu nền của nút */
+    color: white; /* Màu chữ của nút */
+    border: none; /* Loại bỏ viền */
+    padding: 10px 20px; /* Kích thước padding */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột */
+    border-radius: 50px; /* Bo góc */
+}
+.home-button a {
+    text-decoration: none; /* Loại bỏ gạch dưới */
+    color: inherit;
+}
+.home-button:hover {
+    background-color: #e5ef52; /* Màu nền của nút khi hover */
+    color: black;
+}
+/* ==================================(NÚT KẾ TIẾP)============================== */
+.next-button {
+    background-color: rgb(4, 170, 109); /* Màu nền của nút */
+    color: white; /* Màu chữ của nút */
+    border: none; /* Loại bỏ viền */
+    padding: 10px 20px; /* Kích thước padding */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột */
+    margin-left: 250px;
+    border-radius: 50px; /* Bo góc */
+}
+.next-button:hover {
+    background-color: #0056b3; /* Màu nền của nút khi hover */
+}
+
+#background-content {
+    margin-top: 20px;
+    background-color: aqua;
+    padding: 30px;
+}
+/* ==================================(NÚT NGhiên cứu)============================== */
+.study-button a {
+    text-decoration: none; /* Loại bỏ gạch dưới */
+    color: inherit; /* Kế thừa màu sắc từ phần tử cha */
+}
+.study-button {
+    background-color: rgb(4, 170, 109); /* Màu nền của nút */
+    color: white; /* Màu chữ của nút */
+    border: none; /* Loại bỏ viền */
+    padding: 10px 20px; /* Kích thước padding */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột */
+    border-radius: 20px; /* Bo góc */
+}
+.study-button:hover {
+    background-color: #0056b3; /* Màu nền của nút khi hover */
+}
+
+
+
+
+
+
+
+
+
+
+/* tieu de content */
+.Title-Python-Content {
+    margin-left: 20px;
+}
+/* Ghi chu the p */
+#Note-p {
+    margin-left: 20px;
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* noi dung the p chinh giua*/
+#content-p {
+    margin-left:20px;
+}
+
+/* thuc thi cu phap Syntax */
+.title-content
+{
+    display: flex;
+}
+/* noi dung ben trai  */
+.label-one {
+    flex: 60%;
+}
+#background-label-one {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(218, 217, 217);
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#background-label-black {
+    width: 90%;
+    height: 60px;
+    background-color: black;
+    margin-left: 17px;
+    border-left: 5px solid green;
+}
+
+#content-background-label-black {
+    color: white;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* noi dung ben phai */
+.label-two {
+    justify-content: left;
+    flex: 40%;
+}
+#background-label-two {
+    width: 90%;
+    height: 220px;
+    background-color: rgb(220, 219, 219);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#hr-label {
+    border: 1px solid rgb(194, 192, 192);
+    width: 85%;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+#content-p-label {
+    margin-right: 50px; 
+    margin-left: 20px; 
+    color:rgb(179, 177, 177); 
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#content-ul-label {
+    margin-left: 20px;
+}
+#menu-label {
+    margin-top: 15px;
+}
+#menu-label ul {
+    list-style-type: none; /* bỏ các dấu chấm các mục trong  ul  */
+}
+#menu-label li {
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(91, 90, 90);
+}
+#menu-label li:hover {
+    color: black;
+    cursor: pointer;
+}
+/* ==========================(dong thuc thi cu phap Syntax)============= */
+
+#background-example-grey {
+    width: 95%;
+    height: 80px;
+    background-color: rgb(220, 219, 219);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#background-example-black {
+    width: 90%;
+    height: 40px;
+    background-color: black;
+    margin-left: 17px;
+    border-left: 5px solid green;
+}
+#content-background-example-black {
+    color: white;
+    margin-top: -5px;
+    margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* tao giong hr */
+#hr-content {
+    border: 1px solid rgb(222, 220, 220);
+    width: 95%;
+    margin-left: 20px;
+}
+
+
+/* ========menu doc ul============ */
+#content-ul-one {
+    flex: 50%;
+}
+#content-ul-one ul {
+    list-style-type: none;
+}
+#content-ul-one li{
+    margin-bottom: 15px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content-ul-two {
+    flex: 50%;
+}
+#content-ul-two ul {
+    list-style-type:none;
+}
+#content-ul-two li{
+    margin-bottom: 15px;
+    margin-left: -140px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#list-two {
+    color: red;
+    background-color:rgb(222, 216, 216) ;
+    width: 100px;
+}
+/* ============dong menu doc ul=========== */
+
+#background-example-list {
+    background-color: rgb(202, 201, 201);
+    width: 95%;
+    height: 35px;
+    margin-left: 20px;
+}
+#background-example-list p{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+#content-p u:hover {
+    color: green;
+}
+
+
+/* background vi du 1 */
+#background-grey-example--list {
+    width: 95%;
+    height: 180px;
+    background-color: rgb(199, 196, 196);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#background-white-example--list {
+    width: 90%;
+    height: 50px;
+    background-color: white;
+    border-left: 5px solid green;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#background-white-example--list  p{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+
+#background-yellow-example--list {
+    width: 95%;
+    height: 80px;
+    background-color: rgb(245, 249, 159);
+    margin-left: 20px;
+}
+#background-yellow-example--list p{
+    margin-left: 20px;
+}
+#background-yellow-example--list u:hover{
+    color:green;
+}
+
+#ul li {
+    margin-left: 55px;
+    margin-bottom: 5px;
+}
+
+
+/* background vi du 2 */
+#background-grey-example2--list {
+    width: 95%;
+    height: 200px;
+    background-color: rgb(199, 196, 196);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#background-white-example2--list {
+    width: 90%;
+    height: 90px;
+    background-color: white;
+    border-left: 5px solid green;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#background-white-example2--list  p{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#background-white-example2--list  #p-two{
+    margin-top: 1px;
+    margin-left: 20px;
+}
+/* dong vi du 2 */
+
+
+/* background vi du 3 */
+#background-grey-example3--list {
+    width: 95%;
+    height: 250px;
+    background-color: rgb(199, 196, 196);
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#background-white-example3--list {
+    width: 90%;
+    height: 130px;
+    background-color: white;
+    border-left: 5px solid green;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#background-white-example3--list  p{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#background-white-example3--list  #p-three{
+    margin-top: 1px;
+    margin-left: 20px;
+}
+#background-white-example3--list  #p-four{
+    margin-top: 1px;
+}
